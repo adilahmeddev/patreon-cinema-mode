@@ -1,0 +1,68 @@
+/* <header> element */
+.pcm-dark-header-override {
+  background-color: #202020 !important;
+  border-bottom: 0px !important;
+  opacity: 0.2;
+  transition: opacity 0.4s linear;
+}
+
+/* <header> element */
+.pcm-dark-header-opacity {
+  opacity: 1 !important;
+}
+
+/* Messages SVG element */
+.pmc-dark-svg-color {
+  fill: #78909c !important;
+}
+
+/* <bod> element */
+.pcm-dark-body-override {
+  background-color: #181818 !important;
+}
+
+/* First child of <main> element */
+.pcm-main-child-overrides {
+  margin-top: 95vh !important;
+}
+
+/* <video> element */
+.pcm-video-overrides {
+  max-height: 94vh !important;
+}
+
+/* third parent of <video> element */
+.pcm-video-container-overrides { 
+  position: absolute !important;
+  width: 90% !important;
+  left: 5% !important;
+  top: 70px !important;
+  z-index: 1199 !important;
+}
+
+#pcm-btn-container {
+  display: flex;
+}
+
+#pcm-dark-mode-button {
+  background: linear-gradient( -90deg, darkgrey 50%, white 51% );
+  position: relative;
+  border: 0.5px solid lightgray;
+  border-radius: 50%;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+#pcm-expand-button {
+  position: relative;
+  border: 2.5px solid darkgray;
+  border-bottom-width: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+  margin: auto 2px;
+  margin-right: 10px;
+}
